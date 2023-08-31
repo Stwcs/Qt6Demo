@@ -10,11 +10,13 @@ class frmComTool;
 class frmComTool : public QWidget
 {
     Q_OBJECT
+
 public:
     explicit frmComTool(QWidget *parent = nullptr);
+    ~frmComTool();
 
-signals:
-
+private:
+    Ui::frmComTool *ui;
 };
 
 #endif // FRMCOMTOOL_H
